@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Languages Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-code"></i> CodeHub
+            </div>
+            <ul class="nav-links">
+                <li><a href="https://www.python.org/" target="_blank" class="active"><i class="fab fa-python"></i> Python</a></li>
+                <li><a href="https://www.java.com/" target="_blank"><i class="fab fa-java"></i> Java</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><i class="fab fa-js"></i> JavaScript</a></li>
+                <li><a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank"><i class="fas fa-c"></i> C#</a></li>
+                <li><a href="#resources"><i class="fas fa-book"></i> Resources</a></li>
+            </ul>
+            
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Programming Languages Hub</h1>
+                <p>Learn the most popular programming languages with our free resources</p>
+                <button class="cta-button" onclick="showWelcomeMessage()">Get Started</button>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Programming" class="animated-image">
+            </div>
+        </section>
+
+        <section id="languages" class="languages-section">
+            <h2>Popular Programming Languages</h2>
+            <div class="language-cards">
+                <div class="card">
+                    <img src="c:\Users\fathi\OneDrive\Desktop\images\python.jpeg" alt="Python">
+                    <h3>Python</h3>
+                    <p>High-level, interpreted programming language with dynamic semantics.</p>
+                </div>
+                <div class="card">
+                    <img src="c:\Users\fathi\OneDrive\Desktop\images\java.jpg" alt="Java">
+                    <h3>Java</h3>
+                    <p>Object-oriented programming language designed to have few implementation dependencies.</p>
+                </div>
+                <div class="card">
+                    <img src="c:\Users\fathi\OneDrive\Desktop\images\javascript.png" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                    <p>Lightweight, interpreted, or just-in-time compiled programming language with first-class functions.</p>
+                </div>
+                <div class="card">
+                    <img src="c:\Users\fathi\OneDrive\Desktop\images\csharp.png" alt="C#">
+                    <h3>C#</h3>
+                    <p>Modern, object-oriented programming language developed by Microsoft.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="comparison" class="comparison-section">
+            <h2>Language Comparison</h2>
+            <table>
+                <tr>
+                    <th>Language</th>
+                    <th>First Appeared</th>
+                    <th>Paradigm</th>
+                    <th>Typing</th>
+                    <th>Popularity</th>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>1991</td>
+                    <td>Multi-paradigm</td>
+                    <td>Dynamic</td>
+                    <td>1st</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>1995</td>
+                    <td>Object-oriented</td>
+                    <td>Static</td>
+                    <td>3rd</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>1995</td>
+                    <td>Multi-paradigm</td>
+                    <td>Dynamic</td>
+                    <td>2nd</td>
+                </tr>
+                <tr>
+                    <td>C#</td>
+                    <td>2000</td>
+                    <td>Object-oriented</td>
+                    <td>Static</td>
+                    <td>5th</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="resources" class="resources-section">
+            <h2>Learning Resources</h2>
+            <div class="resource-list">
+                <div class="resource-item">
+                    <h3>Python Resources</h3>
+                    <ul>
+                        <li><a href="https://docs.python.org/3/tutorial/" target="_blank">Official Python Tutorial</a></li>
+                        <li><a href="https://www.learnpython.org/" target="_blank">Learn Python Interactive Tutorial</a></li>
+                        <li><a href="https://realpython.com/" target="_blank">Real Python Tutorials</a></li>
+                    </ul>
+                </div>
+                <div class="resource-item">
+                    <h3>Java Resources</h3>
+                    <ul>
+                        <li><a href="https://docs.oracle.com/javase/tutorial/" target="_blank">Official Java Tutorials</a></li>
+                        <li><a href="https://www.codecademy.com/learn/learn-java" target="_blank">Codecademy Java Course</a></li>
+                        <li><a href="https://www.javatpoint.com/java-tutorial" target="_blank">JavaTpoint Tutorial</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+                <!-- New Language Sections -->
+                <section id="python" class="language-section">
+                    <div class="language-content">
+                        <h2><i class="fab fa-python"></i> Python Introduction</h2>
+                        <p>Python is a high-level, interpreted programming language known for its simplicity and readability.</p>
+                        
+                        <h3>Basic Syntax</h3>
+                        <pre><code># Hello World
+        print("Hello, World!")
+        
+        # Variables
+        x = 5
+        y = "John"
+        
+        # Functions
+        def my_function():
+            print("Hello from a function")
+        
+        my_function()</code></pre>
+                        
+                        <div class="resources">
+                            <h3>Learning Resources</h3>
+                            <ul>
+                                <li><a href="https://www.python.org/doc/" target="_blank">Official Python Documentation</a></li>
+                                <li><a href="https://www.w3schools.com/python/" target="_blank">W3Schools Python Tutorial</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+        
+                <section id="java" class="language-section">
+                    <div class="language-content">
+                        <h2><i class="fab fa-java"></i> Java Introduction</h2>
+                        <p>Java is a class-based, object-oriented programming language designed to have few implementation dependencies.</p>
+                        
+                        <h3>Basic Syntax</h3>
+                        <pre><code>// Hello World
+        public class Main {
+            public static void main(String[] args) {
+                System.out.println("Hello World");
+            }
+        }
+        
+        // Variables
+        int myNum = 5;
+        String name = "John";
+        
+        // Methods
+        static void myMethod() {
+            System.out.println("Hello from a method");
+        }</code></pre>
+                        
+                        <div class="resources">
+                            <h3>Learning Resources</h3>
+                            <ul>
+                                <li><a href="https://docs.oracle.com/javase/tutorial/" target="_blank">Official Java Tutorials</a></li>
+                                <li><a href="https://www.codecademy.com/learn/learn-java" target="_blank">Codecademy Java Course</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+        
+                <section id="javascript" class="language-section">
+                    <div class="language-content">
+                        <h2><i class="fab fa-js"></i> JavaScript Introduction</h2>
+                        <p>JavaScript is a lightweight, interpreted programming language with first-class functions.</p>
+                        
+                        <h3>Basic Syntax</h3>
+                        <pre><code>// Hello World
+        console.log("Hello, World!");
+        
+        // Variables
+        let x = 5;
+        const name = "John";
+        
+        // Functions
+        function myFunction() {
+            console.log("Hello from a function");
+        }
+        
+        // Arrow function
+        const myArrowFunc = () => {
+            console.log("Hello from arrow function");
+        };</code></pre>
+                        
+                        <div class="resources">
+                            <h3>Learning Resources</h3>
+                            <ul>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">MDN JavaScript Docs</a></li>
+                                <li><a href="https://javascript.info/" target="_blank">Modern JavaScript Tutorial</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+        
+                <section id="csharp" class="language-section">
+                    <div class="language-content">
+                        <h2><i class="fas fa-c"></i> C# Introduction</h2>
+                        <p>C# is a modern, object-oriented programming language developed by Microsoft.</p>
+                        
+                        <h3>Basic Syntax</h3>
+                        <pre><code>// Hello World
+        using System;
+        
+        class Program {
+            static void Main() {
+                Console.WriteLine("Hello World");
+            }
+        }
+        
+        // Variables
+        int myNum = 5;
+        string name = "John";
+        
+        // Methods
+        static void MyMethod() {
+            Console.WriteLine("Hello from a method");
+        }</code></pre>
+                        
+                        <div class="resources">
+                            <h3>Learning Resources</h3>
+                            <ul>
+                                <li><a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">Microsoft C# Docs</a></li>
+                                <li><a href="https://www.tutorialspoint.com/csharp/" target="_blank">TutorialsPoint C# Guide</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Programming Languages Hub. All rights reserved.</p>
+        <p>created by Rishma </p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
